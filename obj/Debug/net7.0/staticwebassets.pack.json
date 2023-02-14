@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets/js/houseGroup.js"
     },
     {
+      "Id": "/home/chamito/Dev/Courses/ASP.NET/SignalRSample/wwwroot/js/notification.js",
+      "PackagePath": "staticwebassets/js/notification.js"
+    },
+    {
       "Id": "/home/chamito/Dev/Courses/ASP.NET/SignalRSample/wwwroot/js/signalr.js",
       "PackagePath": "staticwebassets/js/signalr.js"
     },

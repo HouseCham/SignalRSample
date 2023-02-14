@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7HSr2IB+B0wQdGrYHa3XCRzGM102C2tbLkq7TLfNEZI=",
+  "Hash": "ubYTsr7J3fsmBT/ndB0dVeSU9I7cYljcZRWJ7BplNws=",
   "Source": "SignalRSample",
   "BasePath": "_content/SignalRSample",
   "Mode": "Default",
@@ -1137,6 +1137,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/houseGroup.js"
+    },
+    {
+      "Identity": "/home/chamito/Dev/Courses/ASP.NET/SignalRSample/wwwroot/js/notification.js",
+      "SourceId": "SignalRSample",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/chamito/Dev/Courses/ASP.NET/SignalRSample/wwwroot/",
+      "BasePath": "_content/SignalRSample",
+      "RelativePath": "js/notification.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/notification.js"
     },
     {
       "Identity": "/home/chamito/Dev/Courses/ASP.NET/SignalRSample/wwwroot/js/signalr.js",

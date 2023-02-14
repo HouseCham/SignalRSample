@@ -18688,6 +18688,11 @@
       "FilePath": "/home/chamito/Dev/Courses/ASP.NET/SignalRSample/Views/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/chamito/Dev/Courses/ASP.NET/SignalRSample/Views/Home/Notification.cshtml",
+      "TargetPath": "Views\\Home\\Notification.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.3"
