@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cm7MovyPgZlVOmyng+YkJ2uSeuozHfy7axlDtZyl8HY=",
+  "Hash": "7HSr2IB+B0wQdGrYHa3XCRzGM102C2tbLkq7TLfNEZI=",
   "Source": "SignalRSample",
   "BasePath": "_content/SignalRSample",
   "Mode": "Default",
@@ -1120,6 +1120,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/deathlyHallows.js"
+    },
+    {
+      "Identity": "/home/chamito/Dev/Courses/ASP.NET/SignalRSample/wwwroot/js/houseGroup.js",
+      "SourceId": "SignalRSample",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/chamito/Dev/Courses/ASP.NET/SignalRSample/wwwroot/",
+      "BasePath": "_content/SignalRSample",
+      "RelativePath": "js/houseGroup.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/houseGroup.js"
     },
     {
       "Identity": "/home/chamito/Dev/Courses/ASP.NET/SignalRSample/wwwroot/js/signalr.js",

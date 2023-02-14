@@ -11,7 +11,7 @@ function updateSpans(cloak, stone, wand){
 //create connection
 let connectionDeathlyHallows = new signalR.HubConnectionBuilder()
     //.configureLogging(signalR.LogLevel.Information)
-    .withUrl("/hubs/deathlyHallows").build();  //ServerSentEvents, LongPolling
+    .withUrl("/hubs/deathlyHallows").build();
 
 //connect to methods that hub invokes aka receive notifications from hub
 connectionDeathlyHallows.on("updateDeathlyHallowsCount", (cloak, stone, wand)=> {

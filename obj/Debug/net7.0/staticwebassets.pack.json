@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets/js/deathlyHallows.js"
     },
     {
+      "Id": "/home/chamito/Dev/Courses/ASP.NET/SignalRSample/wwwroot/js/houseGroup.js",
+      "PackagePath": "staticwebassets/js/houseGroup.js"
+    },
+    {
       "Id": "/home/chamito/Dev/Courses/ASP.NET/SignalRSample/wwwroot/js/signalr.js",
       "PackagePath": "staticwebassets/js/signalr.js"
     },
