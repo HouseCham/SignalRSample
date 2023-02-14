@@ -1,5 +1,7 @@
 //create connection
-let connectionUserCount = new signalR.HubConnectionBuilder().withUrl("/hubs/userCount").build();
+let connectionUserCount = new signalR.HubConnectionBuilder()
+    //.configureLogging(signalR.LogLevel.Information)
+    .withUrl("/hubs/userCount", signalR.HttpTransportType.WebSockets).build();  //ServerSentEvents, LongPolling
 
 //connect to methods that hub invokes aka receive notifications from hub
 connectionUserCount.on("updateTotalViews", (value)=> {
@@ -14,7 +16,9 @@ connectionUserCount.on("updateTotalUsers", (value)=> {
 
 //invoke hub methods aka send notification to hub
 function newWindowLoadedOnClient(){
-    connectionUserCount.send("NewWindowLoaded");
+    connectionUserCount.invoke("NewWindowLoaded", "Chamito").then((value) => {
+        console.log(value.toString());
+    });
 }
 
 //start connection

@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/home/chamito/Dev/Courses/ASP.NET/SignalRSample/wwwroot/js/deathlyHallows.js",
+      "PackagePath": "staticwebassets/js/deathlyHallows.js"
+    },
+    {
       "Id": "/home/chamito/Dev/Courses/ASP.NET/SignalRSample/wwwroot/js/signalr.js",
       "PackagePath": "staticwebassets/js/signalr.js"
     },
